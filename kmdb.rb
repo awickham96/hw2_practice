@@ -114,8 +114,98 @@ new_movie.save
 
 new_cast_member = Top_Cast.new
 new_cast_member["title"] = "Batman Begins"
-new_cast_member["actor"] = "2005"
-new_cast_member["role"] = "PG-13"
+new_cast_member["actor"] = "Christian Bale"
+new_cast_member["role"] = "Bruce Wayne"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "Batman Begins"
+new_cast_member["actor"] = "Michael Cane"
+new_cast_member["role"] = "Alfred"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "Batman Begins"
+new_cast_member["actor"] = "Liam Neeson"
+new_cast_member["role"] = "Ra's Al Ghul"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "Batman Begins"
+new_cast_member["actor"] = "Katie Holmes"
+new_cast_member["role"] = "Rachel Dawes"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "Batman Begins"
+new_cast_member["actor"] = "Gary Oldman"
+new_cast_member["role"] = "Commissioner Gordon"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight"
+new_cast_member["actor"] = "Christian Bale"
+new_cast_member["role"] = "Bruce Wayne"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight"
+new_cast_member["actor"] = "Heath Ledger"
+new_cast_member["role"] = "Joker"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight"
+new_cast_member["actor"] = "Aaron Eckhart"
+new_cast_member["role"] = "Harvey Dent"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight"
+new_cast_member["actor"] = "Michael Caine"
+new_cast_member["role"] = "Alfred"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight"
+new_cast_member["actor"] = "Maggie Gyllenhaal"
+new_cast_member["role"] = "Rachel Dawes"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight"
+new_cast_member["actor"] = "Maggie Gyllenhaal"
+new_cast_member["role"] = "Rachel Dawes"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight Rises"
+new_cast_member["actor"] = "Christian Bale"
+new_cast_member["role"] = "Bruce Wayne"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight Rises"
+new_cast_member["actor"] = "Gary Oldman"
+new_cast_member["role"] = "Commissioner Gordon"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight Rises"
+new_cast_member["actor"] = "Tom Hardy"
+new_cast_member["role"] = "Bane"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight Rises"
+new_cast_member["actor"] = "Joseph Gordon-Levitt"
+new_cast_member["role"] = "John Blake"
+new_cast_member.save
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "The Dark Knight Rises"
+new_cast_member["actor"] = "Anne Hathaway"
+new_cast_member["role"] = "Selina Kyle"
 new_cast_member.save
 
 # Prints a header for the movies output
