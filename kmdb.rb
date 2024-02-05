@@ -69,14 +69,54 @@
 
 # Delete existing data, so you'll start fresh each time this script is run.
 # Use `Model.destroy_all` code.
-# TODO!
+Model.destroy_all
 
 # Generate models and tables, according to the domain model.
-# TODO!
+rails generate model Movies
+    t.string "title"
+    t.string "year_released"
+    t.string "rating"
+    t.string "studio"
+rails db:migrate
+
+rails generate model Top_Cast
+    t.string "title"
+    t.string "actor"
+    t.string "role"
+rails db:migrate
 
 # Insert data into the database that reflects the sample data shown above.
 # Do not use hard-coded foreign key IDs.
-# TODO!
+
+# for Movies table:
+new_movie= Movies.new
+new_movie["title"] = "Batman Begins"
+new_movie["year_released"] = "2005"
+new_movie["rating"] = "PG-13"
+new_movie["studio"] = "Warner Bros."
+new_movie.save
+
+new_movie= Movies.new
+new_movie["title"] = "The Dark Knight"
+new_movie["year_released"] = "2008"
+new_movie["rating"] = "PG-13"
+new_movie["studio"] = "Warner Bros."
+new_movie.save
+
+new_movie= Movies.new
+new_movie["title"] = "The Dark Knight Rises"
+new_movie["year_released"] = "2012"
+new_movie["rating"] = "PG-13"
+new_movie["studio"] = "Warner Bros."
+new_movie.save
+
+# for Top_Cast table:
+
+new_cast_member = Top_Cast.new
+new_cast_member["title"] = "Batman Begins"
+new_cast_member["actor"] = "2005"
+new_cast_member["role"] = "PG-13"
+new_cast_member.save
 
 # Prints a header for the movies output
 puts "Movies"
