@@ -214,7 +214,15 @@ puts "======"
 puts ""
 
 # Query the movies data and loop through the results to display the movies output.
-# TODO!
+
+for new_movie in Movies
+  title = new_movie["title"]
+  year_released = new_movie["year_released"]
+  rating = new_movie["rating"]
+  studio = new_movie["studio"]
+  # display the Movies table
+  puts "#{title} #{year_released} #{rating} #{studio}"
+end
 
 # Prints a header for the cast output
 puts ""
@@ -223,4 +231,11 @@ puts "========"
 puts ""
 
 # Query the cast data and loop through the results to display the cast output for each movie.
-# TODO!
+
+for new_cast_member in Top_Cast
+    title = new_movie["title"]
+    actor = new_movie["year_released"]
+    role = new_movie["rating"]
+    # display the Movies table
+    puts "#{title} #{actor} #{role}"
+  end
